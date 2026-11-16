@@ -1,0 +1,10 @@
+# Rebuilt by the server, or its running state.
+.index.tantivy/
+views/
+*.running/
+*-marks-*.json
+
+# Named by no config here (tools/team/make-config-repo.sh listed them).
+/RETIRED/
+/skgconfig.toml~
+/telescope-warnings.org

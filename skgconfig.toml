@@ -1,0 +1,143 @@
+tantivy_folder = ".index.tantivy"
+port = 1730 # TCP port for Rust-Emacs API communication.
+timing_log = true
+
+# Paths are relative to this file's folder, data/jeff/.
+
+# NOTE: repos are listed in privacy order, most public first.
+# To choose a privacy level is to name one of those repos,
+# which causes everything above it to be included.
+
+[[repos]]
+name = "public"
+path = "public"
+
+[[repos]]
+name = "pers-i"
+path = "personal-ish"
+
+[[repos]]
+name = "decid"
+path = "deciduous"
+
+[[repos]]
+name = "pers-p"
+path = "personal-proc"
+
+[[repos]]
+name = "pers-dep"
+path = "personal-deprecated"
+
+[[repos]]
+name = "pers-m"
+path = "personal-most"
+
+# Claude's skgrepos, and those of the specialists Claude runs.
+# Foreign here: read, forked by editing, never written.
+
+[[repos]]
+name = "claude-public"
+path = "../claude/public"
+foreign = true
+
+[[repos]]
+name = "claude-private"
+path = "../claude/private"
+foreign = true
+
+[[repos]]
+name = "tay"
+path = "../claude/team/tay/notes"
+foreign = true
+
+[[repos]]
+name = "ed"
+path = "../claude/team/ed/notes"
+foreign = true
+
+[[repos]]
+name = "vic"
+path = "../claude/team/vic/notes"
+foreign = true
+
+[[repos]]
+name = "sue"
+path = "../claude/team/sue/notes"
+foreign = true
+
+[[repos]]
+name = "mario"
+path = "../claude/team/mario/notes"
+foreign = true
+
+[[repos]]
+name = "val"
+path = "../claude/team/val/notes"
+foreign = true
+
+[[repos]]
+name = "terry"
+path = "../claude/team/terry/notes"
+foreign = true
+
+[[repos]]
+name = "jesus"
+path = "../claude/team/jesus/notes"
+foreign = true
+
+[[repos]]
+name = "drew"
+path = "../claude/team/drew/notes"
+foreign = true
+
+[[repos]]
+name = "tracy"
+path = "../claude/team/tracy/notes"
+foreign = true
+
+[[repos]]
+name = "tess"
+path = "../claude/team/tess/notes"
+foreign = true
+
+[[repos]]
+name = "praveen"
+path = "../claude/team/praveen/notes"
+foreign = true
+
+[[repos]]
+name = "cleo"
+path = "../claude/team/cleo/notes"
+foreign = true
+
+[[repos]]
+name = "doc"
+path = "../claude/team/doc/notes"
+foreign = true
+
+[[repos]]
+name = "libby"
+path = "../claude/team/libby/notes"
+foreign = true
+
+[[repos]]
+name = "porter"
+path = "../claude/team/porter/notes"
+foreign = true
+
+[[repos]]
+name = "gen"
+path = "../claude/team/gen/notes"
+foreign = true
+
+# The specialist scarlett. Added by tools/team/specialist.sh.
+[[repos]]
+name = "scarlett"
+path = "../claude/team/scarlett/notes"
+foreign = true
+
+# The specialist terra. Added by tools/team/specialist.sh.
+[[repos]]
+name = "terra"
+path = "../claude/team/terra/notes"
+foreign = true

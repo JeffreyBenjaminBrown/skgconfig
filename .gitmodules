@@ -1,0 +1,18 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:JeffreyBenjaminBrown/public-notes-in-skg-format.git
+[submodule "personal-ish"]
+	path = personal-ish
+	url = git@github.com:JeffreyBenjaminBrown/personal-ish-notes-in-skg-format.git
+[submodule "deciduous"]
+	path = deciduous
+	url = git@github.com:JeffreyBenjaminBrown/deciduous-notes-in-skg-format.git
+[submodule "personal-proc"]
+	path = personal-proc
+	url = git@github.com:JeffreyBenjaminBrown/personal-proc-notes-in-skg-format.git
+[submodule "personal-deprecated"]
+	path = personal-deprecated
+	url = git@github.com:JeffreyBenjaminBrown/personal-DEPRECATED-notes-in-skg-format.git
+[submodule "personal-most"]
+	path = personal-most
+	url = git@github.com:JeffreyBenjaminBrown/personal-most-notes-in-skg-format.git
